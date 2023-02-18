@@ -1,0 +1,180 @@
+/*-----ТЕМНАЯ ТЕМА-----*/
+.theme {
+    background: #FFECEF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(39,38,40,0.4);
+}
+
+/*-----ШАПКА-----*/
+html,body{
+    background-color: #E6E6FA;
+}
+
+
+.header:before{
+
+
+}
+
+li :hover{
+    color: #AA47F9;
+}
+.header_link{
+    color: #AA47F9;
+}
+/*когда размер экрана меньше 767 то меню превращается в бургер и
+адаптируем шапку для телефона*/
+@media (max-width:767px){
+    .header_burger span{
+        background-color: #AA47F9;
+    }
+    /*отрисовываем бургер 3 полоски*/
+    .header_burger:before,
+    .header_burger:after{
+        background-color: #AA47F9;
+    }
+    .header_menu{
+        background-color: #E6E6FA;
+     }
+}
+
+/*оформление кнопок напрвления, в классах внутри*/
+.butt{
+    border: 3px solid #BE72FA;
+    color: #fff;
+    background-color: #BE72FA;
+}
+/*оформление кнопок направления при наведении*/
+.butt:hover{
+    border: 3px solid #BA55D3;
+
+    background-color: #8F00FF;
+
+}
+/*оформление кнопок напрвления, в классах внутри*/
+.butt1{
+    border: 3px solid #BE72FA;
+    color: #fff;
+    background-color: #BE72FA;
+}
+/*оформление кнопок направления при наведении*/
+.butt1:hover{
+    border: 3px solid #BA55D3;
+
+    background-color: #8A2BE2;
+
+}
+
+@media (max-width:767px){
+
+/*Контакты*/
+.contacts{
+    color: #BA55D3;
+    font-size: 20px;
+    text-align: center;
+}
+.contacts1{
+    color: #BA55D3;
+    font-size: 25px;
+    text-align: center;
+}
+/*Оформление формы обратной связи*/
+.form {
+  background-color: #dee8f7;
+}
+
+.input {
+  color: #000;
+  border: 1px solid #fff;
+  background-color: #fff;
+
+}
+
+.input.error {
+  border-color: #ee294e;
+  background-color: #fde9ed;
+}
+
+.submit {
+  background-color: #BA55D3;
+  color: #fff;
+}
+.submit:hover {
+  background-color: #8A2BE2;
+  color: #fff;
+}
+
+.input-field > label {
+  color: #000000;
+
+
+}
+
+.input-field > label.active {
+  color: #9e9e9e;
+}
+
+.form label.error {
+  color: #ee294e !important;
+}
+/* дизайн подвала сайта*/
+.footer {
+    background:  #fff; /* Цвет фона */
+}
+
+
+.footer .foot_contacts {
+   color: #B559FE; /* Цвет текста */
+}
+
+/*блок описания*/
+.footer .foot_logo{
+    color: #B559FE; /* Цвет текста */
+
+}
+change-them[data-theme="dark"] {
+        display: block;
+    }
+
+.change-them[data-theme="light"] {
+        display: none;
+    }
+@media (max-width:767px){
+    .footer .foot_contacts {
+        /*высота текста*/
+        color: #BA55D3; /* Цвет текста */
+
+    }
+    .footer .foot_logo{
+        color: #BA55D3; /* Цвет текста */
+
+    }
+}
+
+button:hover {
+	background-color: #BA55D3;
+}
+
+button._active {
+	background-color: #BA55D3;
+}
+.menu__list {
+ background-color: #fff4fe;
+ padding: 15px;
+ border-radius: 18px;
+}
+
+.menu__link {
+ font-size: 18px;
+ text-decoration: none;
+  color:#B559FE;
+}
+h2{
+    color:#B559FE;
+}
+
+
+.content_text p{
+    color:#BA55D3;
+
+}

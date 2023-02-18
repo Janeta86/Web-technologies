@@ -1,0 +1,207 @@
+/*-----ТЕМНАЯ ТЕМА-----*/
+.theme {
+    background: #242FA2; /*отвечает за фон где луна*/
+    box-shadow: 0 0 10px rgba(39,38,40,0.4);
+}
+
+/*-----ШАПКА-----*/
+html,body{
+    background-color: #080B26;  /*отвечает за фон*/
+
+}
+li :hover{
+    color: #8A2BE2; /*???*/
+}
+.header_link{
+    color: #A6B2EC; /*выбор направления и связь с нами*/
+}
+/*когда размер экрана меньше 767 то меню превращается в бургер и
+адаптируем шапку для телефона*/
+@media (max-width:767px){
+    .header_burger span{
+        background-color: #A6B2EC; /*цвет 2 полоски бургера*/
+    }
+    /*отрисовываем бургер 3 полоски*/
+    .header_burger:before,
+    .header_burger:after{
+        background-color: #A6B2EC; /*цвет 1 и 3 полоски бургера*/
+    }
+    .header_menu{
+        background-color: #с;  /*какая то полоска сверху над всей шапкой */
+     }
+}
+/*------ВЫБОР НАПРАВЛЕНИЯ-----*/
+.vibor {
+    color: #A6B2EC;
+    text-align: center;
+}
+.vibor1 {
+    color: #A6B2EC;
+    text-align: right;
+}
+/*------ВЫБОР КУРСА-----*/
+.kyrs {
+    color: #A6B2EC;
+}
+/*оформление кнопок напрвления, в классах внутри*/
+.butt{
+    border: 3px solid #1E2786; /*оконтовка кнопок */
+    color: #FFF; /*текст в кнопках*/
+    background-color: #1E2786;/*сами кнопки*/
+}
+/*оформление кнопок направления при наведении*/
+.butt:hover{
+    border: 3px solid #A6B2EC; /*оконтовка кнопок при наведении*/
+
+    background-color: #160150;/*сами кнопки при наведении*/
+
+}
+/*оформление кнопок напрвления, в классах внутри*/
+.butt1{
+    border: 3px solid #1E2786;   /*ЧТО ДЕЛАЕТ???*/
+    color: #fff;
+    background-color: #1E2786;   /*ЧТО ДЕЛАЕТ???*/
+}
+/*оформление кнопок направления при наведении*/
+.butt1:hover{
+    border: 3px solid #A6B2EC; /*ЧТО ДЕЛАЕТ???*/
+
+    background-color: #160150; /*ЧТО ДЕЛАЕТ???*/
+
+}
+
+@media (max-width:767px){
+
+    /*Контакты*/
+    .contacts{
+        color: #A6B2EC;
+    }
+    .contacts1{
+        color: #A6B2EC;
+   }
+}
+/*----ОБРАТНАЯ СВЯЗЬ-----*/
+.form {
+  background-color: #91A4DA;
+}
+
+.input {
+  color: #000;
+  border: 1px solid #fff;
+  background-color: #fff;
+
+}
+
+.contact {
+    color: #A6B2EC;
+}
+
+/*Контакты*/
+.contacts{
+    color: #A6B2EC;
+}
+.contacts1{
+    color: #A6B2EC;
+}
+.input.error {
+  border-color: #ee294e;
+  background-color: #fde9ed;
+}
+
+.submit {
+  background-color: #1E2786; /*кнопка*/
+  color: #fff;
+}
+.submit:hover {
+  background-color: #160150; /*кнопка при наведении */
+  border: 3px solid #A6B2EC;
+  color: #fff;
+}
+
+.input-field > label {
+  color: #000000;
+
+
+}
+
+.input-field > label.active {
+  color: #9e9e9e;
+}
+
+.form label.error {
+  color: #ee294e !important;
+}
+/* -----ПОДВАЛ----- */
+.footer {
+    background: #111750 /* Цвет фона */
+
+}
+
+
+.footer .foot_contacts {
+    color: #A6B2EC; /* Цвет текста */
+}
+
+/*блок описания*/
+.footer .foot_logo{
+    color: #A6B2EC; /* Цвет текста */
+
+}
+
+@media (max-width:767px){
+    .footer .foot_contacts {
+        color: #A6B2EC; /* Цвет текста */
+
+    }
+    .footer .foot_logo{
+        color: #A6B2EC; /* Цвет текста */
+
+    }
+}
+
+
+.change-them[data-theme="dark"] {
+        display: none;
+    }
+
+.change-them[data-theme="light"] {
+        display: block;
+    }
+    button {
+    	height: 40px;
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;
+    	transition: all 0.3s ease 0s;
+    	padding: 0px 16px;
+    	background-color: #A6B2EC;
+    	font-weight: 700;
+    	font-size: 22px;
+    	cursor: pointer;
+        text-decoration: none;
+        color:#fff;
+        border-radius: 18px;
+        border: 3px solid #A6B2EC;
+        text-decoration: none;
+
+        text-transform: uppercase;
+    }
+    .menu__link {
+     font-size: 18px;
+     text-decoration: none;
+      color:#1E2786;
+    }
+    .menu__list {
+     background-color: #A6B2EC;
+     padding: 15px;
+     border-radius: 18px;
+    }
+    h2{
+        color:#A6B2EC;
+    }
+
+
+    .content_text p{
+        color:#A6B2EC;
+
+    }
